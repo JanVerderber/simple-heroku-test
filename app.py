@@ -13,7 +13,7 @@ app.add_url_rule(rule="/", endpoint="public.main.home_page", view_func=public_ma
 app.add_url_rule(rule="/about-me", endpoint="public.main.about_me", view_func=public_main.about_me, methods=["GET"])
 
 
-# FOR RUNNING THE APP
+# FOR RUNNING
 
 if __name__ == '__main__':
     if is_local():
